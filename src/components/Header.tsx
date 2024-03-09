@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Nav (): JSX.Element {
   return (
     <NavContainer>
-      <MenuIcon height={20} width={20}/>
+      <MenuIcon height={30} width={30}/>
       <LeftSectionInNav>
         <NavLink href="/">
           <Image src="/logo.png" alt="Celebrast logo" width={100} height={100}/>
