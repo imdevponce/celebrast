@@ -1,6 +1,7 @@
-export default function Footer() {
-    return (
-        <div>Footer</div>
-    );
-  }
-  
+function Footer () {
+  return (
+    <div>footer</div>
+  )
+}
+
+export default Footer
