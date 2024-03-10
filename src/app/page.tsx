@@ -1,5 +1,8 @@
+'use client'
+import { HomeContainer } from './home.styles'
+
 export default function Home () {
   return (
-    <div>Home</div>
+    <HomeContainer>Pagina inicial</HomeContainer>
   )
 }
