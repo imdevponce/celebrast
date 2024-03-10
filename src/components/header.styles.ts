@@ -1,16 +1,11 @@
 import styled from 'styled-components'
 import Link from 'next/link'
-import Menu from './icons/MenuIcon'
 
 interface CustomNavLinkProps {
   href: string
   $noMargin?: boolean
 };
 
-export const MenuIcon = styled(Menu)`
-stroke: red;
-  }
-`
 export const NavContainer = styled.header`
     min-height: 80px;
     border-bottom: 1px solid #d9d9d9;

@@ -1,5 +1,6 @@
 'use client'
-import { NavContainer, NavLink, LeftSectionInNav, RightSectionInNav, NavMenuContainer, MenuIcon } from './header.styles'
+import { NavContainer, NavLink, LeftSectionInNav, RightSectionInNav, NavMenuContainer } from './header.styles'
+import MenuIcon from './icons/MenuIcon'
 import Image from 'next/image'
 export default function Nav (): JSX.Element {
   return (
