@@ -4,6 +4,7 @@ import Link from 'next/link'
 interface CustomNavLinkProps {
   href: string
   $noMargin?: boolean
+  $primaryColor?: boolean
 };
 
 export const NavContainer = styled.header`
@@ -22,6 +23,8 @@ export const NavLink = styled(Link)<CustomNavLinkProps>`
     color: #000000;
     flex-direction: row;
     font-weight: 600;
+    color: ${(props) => (props.$primaryColor ? '#FF7354' : '')};
+
   `
 export const LeftSectionInNav = styled.div`
     display: flex;

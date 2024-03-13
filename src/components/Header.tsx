@@ -8,7 +8,7 @@ export default function Nav (): JSX.Element {
       <MenuIcon height={30} width={30}/>
       <LeftSectionInNav>
         <NavLink href="/">
-          <Image src="/logo.png" alt="Celebrast logo" width={100} height={100}/>
+          <Image src="/logo.png" alt="Celebrast logo" width={60} height={60}/>
         </NavLink>
         <NavMenuContainer>
           <NavLink href="/mi-celebracion">Mi celebración</NavLink>
@@ -17,7 +17,7 @@ export default function Nav (): JSX.Element {
         </NavMenuContainer>
       </LeftSectionInNav>
       <RightSectionInNav>
-        <NavLink $noMargin href="/ser-proveedor">¿Cómo ser proveedor?</NavLink>
+        <NavLink $noMargin $primaryColor href="/ser-proveedor">¿Cómo ser proveedor?</NavLink>
         <NavLink $noMargin href="/login">
         Login
         </NavLink>
