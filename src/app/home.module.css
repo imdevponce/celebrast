@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    padding: 0 65px 200px 65px;
+    padding: 0 65px 100px 65px;
 }
 .collage_wrap {
     display: flex;
@@ -59,7 +59,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 849px) {
     .collage_item{
         width: 50%;
         margin: 20px 0!important;
@@ -71,27 +71,32 @@
     .collage_item:nth-child(2){
        z-index: 4;
        width: 300px;
-
-    
     }
     .collage_item:nth-child(3){
         z-index: 3;
         width: 300px;
-
-    
     }
     .collage_item:nth-child(4){
         z-index: 2;
         width: 300px;
 
-    
     }
     .collage_item:nth-child(5){
         z-index: 1;
         width: 300px;
-
     }
     .container{
         margin-top: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        margin-top: 35px;
+    }
+}
+@media (max-width: 425px) {
+    .collage_item_inner{
+        width: 250px;
+        margin: 0 auto;
     }
 }
