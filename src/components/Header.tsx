@@ -5,11 +5,12 @@ import Image from 'next/image'
 export default function Nav (): JSX.Element {
   return (
     <NavContainer>
-      <MenuIcon height={30} width={30}/>
+      {false ? <MenuIcon height={30} width={30}/> : null}
+      <NavLink href="/" >
+        <Image src="/celebrast-logo.png" alt="Celebrast logo" height={80} width={200}/>
+      </NavLink>
       <LeftSectionInNav>
-        <NavLink href="/">
-          <Image src="/logo.png" alt="Celebrast logo" width={60} height={60}/>
-        </NavLink>
+
         <NavMenuContainer>
           <NavLink href="/mi-celebracion">Mi celebración</NavLink>
           <NavLink href="/proveedores">Proveedores</NavLink>

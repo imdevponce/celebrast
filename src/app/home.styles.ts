@@ -17,7 +17,6 @@ export const SearchContainer = styled.div`
         font-size: 24px;
     }
     width: 500px;
-    /* background-color: red; */
     @media screen and (max-width: 1024px) {
         width: 100%;
         top: 40%;

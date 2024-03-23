@@ -25,13 +25,29 @@ export default function Home () {
       </MainHomeContainer>
       <AboutCelebrastContainer>
         <AboutCelebrastTitle>
-          En Celebrast puedes organizar
+          Puedes organizar de todo con Celebrast!
         </AboutCelebrastTitle>
         <div className={styles.container}>
           <div className={styles.collage_wrap}>
             <div className={styles.collage_item}>
               <div className={styles.collage_item_inner}>
-                <Image src='/wedding.png'
+                <Image src='/baby-shower.png'
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center" alt='g'/>
+              </div>
+            </div>
+            <div className={styles.collage_item}>
+              <div className={styles.collage_item_inner}>
+                <Image src='/birthday.png'
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center" alt='g'/>
+              </div>
+            </div>
+            <div className={styles.collage_item}>
+              <div className={styles.collage_item_inner}>
+                <Image src='/table-setting-2.png'
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center" alt='g'/>
@@ -47,23 +63,7 @@ export default function Home () {
             </div>
             <div className={styles.collage_item}>
               <div className={styles.collage_item_inner}>
-                <Image src='/wedding.png'
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center" alt='g'/>
-              </div>
-            </div>
-            <div className={styles.collage_item}>
-              <div className={styles.collage_item_inner}>
-                <Image src='/wedding.png'
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center" alt='g'/>
-              </div>
-            </div>
-            <div className={styles.collage_item}>
-              <div className={styles.collage_item_inner}>
-                <Image src='/wedding.png'
+                <Image src='/xv.png'
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center" alt='g'/>

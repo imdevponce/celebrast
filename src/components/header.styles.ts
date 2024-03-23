@@ -14,7 +14,7 @@ export const NavContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 65px;
+    padding: 10px 65px;
     font-size: 14px;
 `
 export const NavLink = styled(Link)<CustomNavLinkProps>`
@@ -23,7 +23,7 @@ export const NavLink = styled(Link)<CustomNavLinkProps>`
     color: #000000;
     flex-direction: row;
     font-weight: 600;
-    color: ${(props) => (props.$primaryColor ? '#FF7354' : '')};
+    color: ${(props) => (props.$primaryColor ? '#57C2E2' : '')};
 
   `
 export const LeftSectionInNav = styled.div`
