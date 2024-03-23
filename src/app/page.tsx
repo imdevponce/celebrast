@@ -8,7 +8,6 @@ import useViewportWidth from 'app/app/hooks/useViewportWidth'
 
 export default function Home () {
   const width = useViewportWidth()
-  console.log('width', width)
   return (
     <HomeContainer>
       <MainHomeContainer >
