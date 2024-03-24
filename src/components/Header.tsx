@@ -1,11 +1,11 @@
 'use client'
 import { NavContainer, NavLink, LeftSectionInNav, RightSectionInNav, NavMenuContainer } from './header.styles'
-import MenuIcon from './icons/MenuIcon'
+// import MenuIcon from './icons/MenuIcon'
 import Image from 'next/image'
 export default function Nav (): JSX.Element {
   return (
     <NavContainer>
-      {false ? <MenuIcon height={30} width={30}/> : null}
+      {/* {false ? <MenuIcon height={30} width={30}/> : null} */}
       <NavLink href="/" >
         <Image src="/celebrast-logo.png" alt="Celebrast logo" height={80} width={200}/>
       </NavLink>
