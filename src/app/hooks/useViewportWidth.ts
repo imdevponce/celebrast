@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 
 export default function useViewportWidth () {
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState(1)
 
   useEffect(() => {
     const handleResize = () => {
